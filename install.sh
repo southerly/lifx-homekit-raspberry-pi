@@ -4,7 +4,7 @@ set -e
 NODE_VERSION="v6.7.0"
 
 sudo apt-get update
-sudo apt-get install build-essential libavahi-compat-libdnssd-dev git-core
+sudo apt-get install build-essential libavahi-compat-libdnssd-dev git-core -y
 
 cd $HOME
 curl -O https://nodejs.org/dist/$NODE_VERSION/node-$NODE_VERSION-linux-armv7l.tar.gz
